@@ -4,13 +4,14 @@ public class Cheers {
         {
                 String word=args[0];
                 boolean x;
+                int length=word.length();
                 
                 String Uword = word.toUpperCase();
                
                 int Times= Integer.parseInt(args[1]);
                 
                 
-               for(int i=0;i<Times+1;i++)
+               for(int i=0;i<length;i++)
                {
 
                

@@ -7,17 +7,17 @@ public class CalcPi {
 		
 		for(int i=0;i<num-1;i++)
 		{
-			if(i%2==0 ||i==0)
+			if(i%2==0)
 			{
-              pi=pi-(1.0/(3.0+2.0*(double)i));
+              pi=pi-(1.0/(3+2*i));
 			}
 			else
 			{
-				pi=pi+(1.0/(3.0+2.0*(double)i));
+				pi=pi+(1.0/(3+2*i));
 
 			}
 		}
 		System.out.println("pi according to Java: "+Math.PI);
-		System.out.println("pi, approximated: "+pi*4.0);
+		System.out.println("pi, approximated: "+pi*4);
 	}
 }
